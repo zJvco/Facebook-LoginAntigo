@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color :#3b5998;
+    display: flex;
+    padding: 20px 5px 0 30px;
+}
+
+.logo-principal {
+    margin-top: 7px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.login {
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+    width: max-content;
+    left: 56%;
+}
+
+.login-email {
+    margin-right: 15px;
+}
+
+.login-email label {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.login-email input {
+    outline: none;
+    border: 1px solid #222;
+    height: 20px;
+    padding: 0 5px 0 5px;
+}
+
+.login-senha {
+    display: block;
+}
+
+.login-senha label {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.login-senha input {
+    outline: none;
+    border: 1px solid #222;
+    height: 20px;
+    padding: 0 5px 0 5px;
+}
+
+.login-senha a {
+    font-size: 15px;
+    margin: 5px 0 5px 0;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.4;
+}
+
+.login-entrar{
+    margin-top: 21px;
+    margin-left: 15px;
+}
+
+.login-entrar button {
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #222;
+    background: #3b5998;
+    border: 1px solid #222;
+    outline: none;
+    color: #fff;
+    padding: 2px;
+    width: 50px;
+}
+
+.seção-inteira {
+    display: flex;
+}
+
+.seção-esquerda {
+    width: 50%;
+}
+
+.seção-esquerda h2 {
+    color: #3b5998;
+    padding: 50px 50px 50px 100px;
+}
+
+.seção-direita {
+    position: relative;
+    top: 30px;
+    left: 300px;
+    width: 600px;
+}
+
+.topo-cadastrar h2{
+    font-size: 40px;
+    margin: 15px 0 15px 0;
+}
+
+.topo-cadastrar p {
+    font-size: 20px;
+    margin: 15px 0 15px 0;
+}
+
+.cadastro-nome {
+    margin: 7px 0 7px 0;
+}
+
+.cadastro-nome input {
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #ccc
+}
+
+.cadastro-email {
+    margin: 0 0 15px 0;
+}
+
+.cadastro-email input {
+    margin: 7px 0 7px 0;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+    width: 85.3%;
+    height: 40px;
+    outline: none;
+    border: 1px solid #ccc
+}
+
+.cadastro-nascimento {
+    font-size: 20px; 
+}
+
+.nascimento {
+    margin: 7px 0 7px 0;
+    display: flex;
+}
+
+.perg-nasc {
+    margin-left: 10px;
+}
+
+.perg-nasc a {
+    color: #3b5998;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+}
+
+.nascimento select{
+    padding: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.genero {
+    margin: 15px 0 15px 0;
+
+}
+
+.genero input {
+    margin-left: 10px;
+}
+
+.genero label {
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.politicas {
+    margin: 20px 0 20px 0;
+}
+
+.politicas h4 {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.politicas h4 a{
+    text-decoration: none;
+    color: #3b5998;
+}
+
+.botao-inscrever {
+    margin: 20px 0 20px 0;
+
+}
+
+.botao-inscrever button {
+    color: #FFF;
+    font-size: 20px;
+    padding: 8px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: #229954;
+    cursor: pointer;
+}
+
+.fim-pagina {
+    margin-top: 50px;
+}
+
+.fim-pagina h3 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #3b5998;
+}

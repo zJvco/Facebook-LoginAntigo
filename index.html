@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/face-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Facebook</title>
+</head>
+<body>
+    <header>
+        <div class="logo-principal">
+            <h1>facebook</h1>
+        </div>
+        <div class="login">
+            <div class="login-email">
+                <label>Email ou telefone</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="login-senha">
+                <label>Senha</label>
+                <input type="password" name="senha" id="senha">
+                <a href="#">Esqueceu a conta?</a>
+            </div>
+            <div class="login-entrar">
+                <button>Entrar</button>
+            </div>
+        </div>
+    </header>
+    <section class="seção-inteira">
+        <section class="seção-esquerda">
+            <h2>O Facebook ajuda você a se conectar e <br> compartilhar com as pessoas que fazem parte <br> da sua vida.</h2>
+            <img src="img/img-face.jpg" alt="conectados" width="900px">
+        </section>
+        <section class="seção-direita">
+            <div class="topo-cadastrar">
+                <h2>Abra uma conta</h2>
+                <p>É gratuito e sempre será.</p>
+            </div>
+            <form action="#">
+                <div class="cadastro-nome">
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                </div>
+                <div class="cadastro-email">
+                    <input type="email" name="email-cadastrar" id="email-cadastrar" placeholder="Celular ou email">
+                    <input type="password" name="senha-cadastrar" id="senha-cadastrar" placeholder="Nova senha">
+                </div>
+                <div class="cadastro-nascimento">
+                    <p>Data de nascimento</p>
+                    <div class="nascimento">
+                        <select class="dia">
+                            <option disabled selected>Dia</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+                        <select class="mes">
+                            <option disabled selected>Mês</option>
+                            <option>Jan</option>
+                            <option>Fev</option>
+                            <option>Mar</option>
+                            <option>Abr</option>
+                            <option>Mai</option>
+                            <option>Jun</option>
+                            <option>Jul</option>
+                            <option>Ago</option>
+                            <option>Set</option>
+                            <option>Out</option>
+                            <option>Nov</option>
+                            <option>Dez</option>
+                        </select>
+                        <select class="ano" onfocus="pegarAnos()">
+                            <option disabled selected>Ano</option>
+                        </select>
+                        <div class="perg-nasc">
+                            <a href="#">Por que preciso informar <br> minha data de nascimento?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="genero">
+                    <input type="radio" name="sexo">
+                    <label>Feminino</label>
+                    <input type="radio" name="sexo">
+                    <label>Masculino</label>
+                </div>
+                <div class="politicas">
+                    <h4>Ao clicar em Inscrever-se você concorda com nossos <a href="#">Termos <br> Politíca de Dados</a> e <a href="#">Politíca de Cookies</a>. Você pode receber <br> notificações por SMS e pode cancelar isso quando quiser.</h4>
+                </div>
+                <div class="botao-inscrever">
+                    <button>Inscrever-se</button>
+                </div>
+                <div class="fim-pagina">
+                    <h3><a href="#">Criar uma Página</a> para uma celebridade, banda ou empresas.</h3>
+                </div>
+            </form>
+        </section>
+    </section>
+</body>
+</html>
